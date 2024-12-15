@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+#detailsContainer {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#detailsContent {
+  display: flex;
+  gap: 20px;
+}
+
+#gadgetImage {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+}
+
+#gadgetName {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  color: #555;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}

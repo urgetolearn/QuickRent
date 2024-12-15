@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HEADER</title>
+    <!-- favicon -->
+    <link rel="icon" href="/img/logo.webp" type="image/gif" sizes="16x16" />
+    <!-- EXTERNAL LINKS -->
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/signup.css" />
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <div id="container">
+          <div id="shopName">
+            <a href="/index.html"><b>Quick</b>Rent</a>
+          </div>
+          <div id="collection">
+            <div id="content"><a href="/pages/content.html">Gadgets</a></div>
+            <div id="contact">
+              <a href="/pages/contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div id="search">
+            <i class="fas fa-search search"></i>
+            <input
+              type="text"
+              id="input"
+              name="searchBox"
+              placeholder="Search for Gadgets" />
+          </div>
+          <button id="signupBtn" class="signup-btn">Sign Up</button>
+          <div id="signupModal" class="dialog-overlay">
+            <div class="dialog-box">
+              <h2>Sign Up</h2>
+              <form>
+                <input type="text" placeholder="Username" required />
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <button type="submit" class="btn">Sign Up</button>
+              </form>
+              <button id="closeModal" class="close-btn">&times;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <script src="/js/signup.js"></script>
+  </body>
+</html>
